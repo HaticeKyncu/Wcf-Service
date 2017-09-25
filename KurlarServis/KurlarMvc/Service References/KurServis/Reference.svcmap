@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a6ef2b57-81b0-4b7b-a4ed-d9746e92c0cd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53246/KurServis.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="KurServis.xsd" MetadataType="Schema" ID="b8b007fc-c085-40aa-9dc9-99ee231e02d2" SourceId="1" SourceUrl="http://localhost:53246/KurServis.svc?xsd=xsd2" />
+    <MetadataFile FileName="KurServis.wsdl" MetadataType="Wsdl" ID="f8ef9712-8d18-4001-a2c8-adc4a8f22f09" SourceId="1" SourceUrl="http://localhost:53246/KurServis.svc?wsdl" />
+    <MetadataFile FileName="KurServis1.xsd" MetadataType="Schema" ID="624d0821-351b-44a8-9412-1ab3faffcdaf" SourceId="1" SourceUrl="http://localhost:53246/KurServis.svc?xsd=xsd1" />
+    <MetadataFile FileName="KurServis.disco" MetadataType="Disco" ID="20e4d6a4-3be9-49d8-83a4-9ba23691a593" SourceId="1" SourceUrl="http://localhost:53246/KurServis.svc?disco" />
+    <MetadataFile FileName="KurServis2.xsd" MetadataType="Schema" ID="20e988c9-562d-4f80-9ca6-e7a013e3778e" SourceId="1" SourceUrl="http://localhost:53246/KurServis.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
